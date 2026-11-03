@@ -1,0 +1,39 @@
+{
+  "metrics": {
+    "Accuracy": 0.8961748633879781,
+    "Precision": 0.8875739644970414,
+    "Recall": 0.8875739644970414,
+    "F1-Score": 0.8875739644970414,
+    "ROC-AUC": 0.9643168233562611
+  },
+  "confusion_matrix": [
+    [
+      178,
+      19
+    ],
+    [
+      19,
+      150
+    ]
+  ],
+  "feature_importance": {
+    "temperature_2m_mean": 0.07438748329877853,
+    "temperature_2m_max": 0.03303634375333786,
+    "temperature_2m_min": 0.03956739977002144,
+    "wind_speed_10m_max": 0.033110298216342926,
+    "wind_gusts_10m_max": 0.09409304708242416,
+    "wind_direction_10m_dominant": 0.05735855922102928,
+    "sunshine_duration": 0.051189910620450974,
+    "bulan": 0.03243003785610199,
+    "hari_dalam_tahun": 0.029881153255701065,
+    "rentang_suhu": 0.4448782503604889,
+    "durasi_siang_jam": 0.11006758362054825
+  },
+  "n_total": 1827,
+  "n_train": 1461,
+  "n_test": 366,
+  "class_counts": {
+    "0": 984,
+    "1": 843
+  }
+}
