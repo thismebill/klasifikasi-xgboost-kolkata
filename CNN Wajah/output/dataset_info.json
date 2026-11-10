@@ -1,0 +1,1 @@
+{"counts": {"angry": 5920, "disgust": 5920, "fear": 5920, "happy": 11398, "neutral": 8166, "sad": 6535, "surprise": 5920}, "total": 49779, "n_train": 39824, "n_val": 9955, "img_size": [48, 48], "imbalance_ratio": 1.9253378378378379}
